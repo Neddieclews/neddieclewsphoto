@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neddie Clews Photography</title>
+        <link type="text/css" rel="stylesheet" href="index.css">
+    </head>
+
+    <header>
+        <div class="logo">
+            <h1>NEDDIE CLEWS PHOTOGRAPHY.</h1>
+        </div>
+            <div class="bottons">
+                   <a class="home" href="index.html">home</a>
+                   <a class="projects" href="project2.html">projects</a>
+                   <a class="about" href="about.html">about</a>
+                   <a class="services" href="Services.html">services</a>
+                   <a class="contact" href="contact.html">contact</a>
+            </div>
+    </header>
+    
+    <body onload="setTimeout('showimage()', 3000)"> 
+        <div id="main" >
+            <div class="pic"><img src="midterm photos/images/DSC03044.jpeg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/franco.jpg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/DSC02868.jpeg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/DSC06410.JPG" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/DSC08242.jpg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/DSC02394.jpeg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/x2/p1.jpg" /></div>
+            <div class="pic hidden"><img src="midterm photos/images/x2/p2.jpg" /></div>
+        
+        </div>
+        <div class="midsection">
+            <div class="first">
+                <p class="opener"> Neddie Clews is a freelance creative professional in the
+                visual media industry trained in photography and video production.</p>
+            </div>
+            <div class="coverphoto"><img src="midterm photos/cover photo.jpg" alt="Cover Photo"></div>
+        </div>
+        <div class="photos">
+                    <div class="images"><a href="CAI.html"><img src="midterm photos/images/franco1.jpg" alt="Snow"></a></div>
+                    <div class="images"><a href="x2-2025.html"><img src="midterm photos/images/xbike.jpg" alt="bike" ></a></div>
+                    <div class="images"><a href="art.html"><img src="midterm photos/images/acrobax.jpeg" alt="acrobax"></a></div>
+                    <div class="images"><a href="seilnorge.html"><img src="midterm photos/images/seilnorge.jpeg" alt="Seil Norge"></a></div>
+                    <div class="images"><a href="portaits.html"><img src="midterm photos/images/portraits.JPG" alt="Portraits"></a></div>
+                    <div class="images"><a href="buena.html"><img src="midterm photos/images/buena onda.JPG" alt="Buena Onda"></a></div>
+                    <div class="images"><a href="x2.html#point1"><img src="midterm photos/images/DSC03371 copy 2.JPG" alt="XSkate"></a></div>
+                    <div class="images"><a href="x2.html#point4"><img src="midterm photos/images/DSC03736 2.JPG" alt="XSurf"></a></div>
+            </div>
+        <div class="discover">
+            <a href="project2.html"><p>Discover more projects</p></a>
+        </div>  
+        
+        <script>
+            var x = document.getElementsByClassName("pic");
+            var number_of_pictures =x.length;
+            var i = 0;
+          
+            function showimage(){
+            x[i].style.animation = "slideout 3s 0s  1 forwards";
+            i = ((i+1)%(number_of_pictures));
+            x[i].style.animation = "slidein 3s 0s  1 forwards";
+            
+            var timer = setTimeout('showimage()', 6000);}
+          </script>
+    </body>
+    
+    </html>
+   

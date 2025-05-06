@@ -1,0 +1,106 @@
+html{ background-color: cornflowerblue;
+}
+.header {
+  width: 40%;
+overflow: hidden;
+padding-left: 3%;
+font-family: 'Courier New', Courier, monospace;
+color:beige;
+}
+.bottons{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 120%;
+  text-align: right;
+  display: flex;
+  justify-content:space-around;
+  padding: 1%;
+  word-spacing: 5%;
+  padding-right: 10%;
+  color:beige;
+}
+h1{
+  color:beige;
+}
+
+.home{
+  padding:3%
+}
+.about{
+  padding:3%
+}
+.projects{
+  padding:3%
+}
+.contact{
+  padding:3%
+}
+.services{
+    padding:3%
+}
+.bottons a {  
+  list-style-type: none;
+  text-decoration:none; 
+  color: beige;
+  }
+a:hover{
+      font-weight: bold;
+      color:blanchedalmond;
+      cursor: pointer;
+
+  }
+
+
+.mainheader {
+  padding: 0%;
+  margin: 0%;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  color:cornflowerblue;
+}
+
+
+.coverphoto {
+  width:30%;
+  border-radius: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+  .top{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: space-between;
+  }
+
+  .text{
+    width: 40%;
+    height: 250px;
+    margin: auto;
+    background-color: beige;
+    border-radius: 80%;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  p{
+    font-size: 150%;
+  }
+
+h2{
+  font-size: 200%;
+}
+
+
+p a{
+  color: cornflowerblue;
+  list-style-type: none;
+  text-decoration:none; 
+}
+
+p a:hover{
+  color: brown;
+}

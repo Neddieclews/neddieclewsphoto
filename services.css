@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:brown;
+    margin: 0;
+}
+.mainheader {
+    padding: 0%;
+    margin: 0%;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    color:darkkhaki;
+}
+.header {
+    width: 40%;
+overflow: hidden;
+padding-left: 3%;
+font-family: 'Courier New', Courier, monospace;
+color:darkolivegreen;
+}
+.bottons{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
+    text-align: right;
+    display: flex;
+    justify-content:space-around;
+    padding: 1%;
+    word-spacing: 5%;
+    padding-right: 10%;
+    color:darkkhaki;
+}
+h1{
+    color:darkkhaki;
+}
+
+.home{
+    padding:3%
+}
+.about{
+    padding:3%
+}
+.projects{
+    padding:3%
+}
+.contact{
+    padding:3%
+}
+.services{
+    padding:3%
+}
+a {  
+    color:darkkhaki;
+    list-style-type: none;
+    text-decoration:none; 
+    }
+a:hover{
+        font-weight: bold;
+        color: blanchedalmond;
+        cursor: pointer;
+    }
+
+.text{
+    width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 5%;
+    margin-top: 12%;
+    margin-left: 7%;
+}
+h2{
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkkhaki;
+    margin: auto;
+    font-size: 800%;
+    margin-bottom: 0%;
+}
+
+.servicelist h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkkhaki;
+    font-size: 200%;
+}
+
+.servicelist{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    color: darkkhaki;
+    
+}
+
+.servicelist p{ 
+    margin: auto;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkkhaki;
+    font-size: 110%;
+}
+
+.logos{
+    background-color: darkkhaki;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.logos img{
+    height: 60px;
+}
+
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact h3{
+    margin: auto;
+    background-color: darkkhaki;
+    color: brown;
+    padding: 30px;
+    border-radius: 60%;
+    width: 40%;
+    margin-top: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+.contact{
+    width: 100%;
+}
+
+.service1{
+    margin-bottom: 20px;
+}
+.service2{
+    padding-top: 0;
+    background-color: darkkhaki;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.service2 h3{
+    color: brown;
+}
+.service2 p{
+    color: brown;
+}
+.service3{
+    margin-bottom: 20px;
+}
+
+.service4{
+    padding-top: 0;
+    background-color: darkkhaki;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.service4 h3{
+    color: brown;
+}
+.service4 p{
+    color: brown;
+}
+
+.service5{
+    margin-bottom: 20px;
+}
+
+.service6{
+    padding-top: 0;
+    background-color: darkkhaki;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.service6 h3{
+    color: brown;
+}
+.service6 p{
+    color: brown;
+}
